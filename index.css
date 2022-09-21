@@ -78,14 +78,31 @@ body{
     border-radius: 1rem;
 }
 
+.btns:hover{
+    background-color: var(--lightRed);
+}
+
 .operations{
     color: var(--lightRed);
+}
+
+.operations:hover{
+    background-color: var(--lightGrey);
 }
 
 .span-2{
     width: 14.5rem;
 }
 
-.ac, .del{
+.input-container .btn-row:first-child .btns:first-child{
     color: var(--lightGreen);
+    width: 14.5rem;
+}
+
+.input-container .btn-row:first-child .btns:nth-child(2){
+    color: var(--lightGreen);
+}
+
+.input-container .btn-row:last-child .btns:last-child{
+    width: 14.5rem;
 }
