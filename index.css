@@ -18,12 +18,9 @@
 }
 
 body{
-    height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+    justify-content: center;
+    background: linear-gradient(90deg, #DB0B5F, #6F00ED);
 }
 
 .container{
@@ -33,6 +30,7 @@ body{
     background-color: var(--black);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 0.25rem;
+    margin-top: 10rem;
 }
 
 .output-container{
@@ -46,7 +44,7 @@ body{
 
 .previous-input{
     color: var(--lightGrey);
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     max-width: 100%;
     overflow: auto;
 }
@@ -118,9 +116,4 @@ body{
 .input-container .btn-row:last-child .btns:last-child{
     width: 14.5rem;
     border-radius: 0.5rem;
-}
-
-footer{
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
 }
