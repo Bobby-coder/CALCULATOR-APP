@@ -20,7 +20,7 @@
 body{
     display: flex;
     justify-content: center;
-    background: linear-gradient(90deg, #DB0B5F, #6F00ED);
+    background-color: #CAD5E2;
 }
 
 .container{
