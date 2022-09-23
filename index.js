@@ -48,7 +48,7 @@ class Calculator {
         let result
         this.prev = parseFloat(this.previousInput)
         this.current = parseFloat(this.currentInput)
-        if(isNaN(this.currentInput) || isNaN(this.prev)) return
+        if(isNaN(this.current) || isNaN(this.prev)) return
 
         switch(this.currentOperation){
             case '+':
