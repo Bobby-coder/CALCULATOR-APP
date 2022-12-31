@@ -35,7 +35,6 @@ body {
 }
 
 .output-container {
-  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -44,16 +43,16 @@ body {
 }
 
 .previous-input {
-  color: var(--lightGrey);
-  font-size: 3.5rem;
   max-width: 100%;
+  color: var(--lightGrey);
+  font-size: 3.2rem;
   overflow: auto;
 }
 
 .current-input {
-  color: var(--white);
-  font-size: 3.5rem;
   max-width: 100%;
+  color: var(--white);
+  font-size: 3.2rem;
   overflow: auto;
 }
 
