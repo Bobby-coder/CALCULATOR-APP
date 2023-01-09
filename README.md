@@ -1,4 +1,4 @@
-# Calculator
+# Calculator JS
 
 ## Demo
 #### Here is a working live demo : https://js-web-calculator.netlify.app
